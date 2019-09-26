@@ -1,5 +1,5 @@
 export default {
-    es: {
+  es: {
     column: 'Columna',
     submit: 'Guardar',
     close: 'OK',
