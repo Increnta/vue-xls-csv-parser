@@ -1,4 +1,31 @@
 export default {
+    es: {
+    column: 'Columna',
+    submit: 'Guardar',
+    close: 'OK',
+    columnData: 'Datos de la columna',
+    chooseColumn: 'Elegir una columna',
+    selected: 'Seleccionado',
+    select: 'Seleccionar',
+    selectColumn: 'Por favor, seleccionar una columna',
+    file: {
+      select: 'Seleccionar archivo',
+      tryAgain: 'Seleccionar otro archivo',
+      withHeaders: 'Este archivo contiene cabeceras',
+      withoutHeaders: 'Este archivo no contiene headers',
+    },
+    error: {
+      title: 'Error',
+      columnNumber: 'Faltan columnas por seleccionar. Las columnas obligatorias son: ',
+      missingColumns: 'Columnas obligatorias restantes:',
+      selectColumn: 'Debe de seleccionar todas las columnas',
+      fileNumber: 'Debe de seleccionar un archivo',
+      fileSelection: 'No ha seleccionado ningún archivo',
+      invalidFile: 'Archivo incorrecto. Intenta utilizar un archivo XLS o CSV',
+      noWorksheet: 'El archivo no contiene ninguna hoja de trabajo',
+      emptyWorksheet: 'La hoja de trabajo está vacía',
+    },
+  },
   en: {
     column: 'Column',
     submit: 'Submit',
